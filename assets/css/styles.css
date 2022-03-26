@@ -9,6 +9,8 @@ body {
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
     display: flex;
+    width: 100vw;
+    height: 100vh;
     justify-content: center;
     align-items: center;
 }
@@ -35,12 +37,16 @@ input {
 
 #botao-submit {
     background-color: rgb(18, 18, 202);
-    padding: 2px;
-    border-radius: 2px;
+    padding: 4px;
+    border-radius: 5px;
+    color: #FFF;
+    cursor: pointer;
 }
 
 #botao-limpar {
+    background-color: transparent;
     border: none;
     padding: 5px;
     color: rgb(233, 56, 56);
+    cursor: pointer;
 }
