@@ -15,7 +15,7 @@ body {
 
 .container {
     background-color: #FFF;
-    width: 700px;
+    width: 500px;
     max-width: 100%;
     height: 500px;
     padding: 5px;
@@ -24,5 +24,23 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     text-align: center;
+}
+
+input {
+    border-radius: 2px;
+    border: 1px solid rgb(46, 46, 211)
+}
+
+#botao-submit {
+    background-color: rgb(18, 18, 202);
+    padding: 2px;
+    border-radius: 2px;
+}
+
+#botao-limpar {
+    border: none;
+    padding: 5px;
+    color: rgb(233, 56, 56);
 }
