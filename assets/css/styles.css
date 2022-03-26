@@ -62,3 +62,7 @@ a:link {
     padding: 8px;
     color: rgb(233, 56, 56);
 }
+
+.box-item {
+    width: 100%;
+}
