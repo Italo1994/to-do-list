@@ -61,6 +61,10 @@ a:link {
     color: #fff;
 }
 
+.box {
+    padding: 10px 0;
+}
+
 .box-item {
     width: 100%;
     display: grid;
