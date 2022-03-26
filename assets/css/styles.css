@@ -55,10 +55,10 @@ a:link {
 }
 
 #botao-limpar {
-    background-color: transparent;
+    background-color: rgb(233, 56, 56);
     border: none;
     padding: 8px;
-    color: rgb(233, 56, 56);
+    color: #fff;
 }
 
 .box-item {
